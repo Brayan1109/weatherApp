@@ -1,0 +1,54 @@
+*{
+    box-sizing: border-box;
+}
+
+h2, h3, h4, h5{
+    margin: 0;
+}
+
+.button-temperature{
+    border: thin white solid;
+    background-color: transparent;
+    color: white;
+    border-radius: 4px;
+}
+
+.container-icon{
+    margin-bottom: 1.5rem;
+}
+
+.container-card-info{
+    display: flex;
+    flex-direction: column;
+}
+
+.container-home{
+    margin-bottom: 0rem;
+    border: thin rgba(0,0,0,0.5) solid;
+    padding: 0.8rem;
+    height: 95vh;
+    background-color: #282c34;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    min-width: 70vh;
+}
+
+.container-card-temperature{
+    margin-bottom: 1.5rem;
+}
+
+.container-card-temperature > div{
+    display: flex;
+    flex-direction: row;
+    grid: .5rem;
+}
+
+.container-temp{
+    margin-left: 2rem;
+}
+
+.spinner{
+    transform: rotate(360);
+}
