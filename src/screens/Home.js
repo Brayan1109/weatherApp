@@ -18,7 +18,6 @@ const Home = () => {
     useEffect(() => {
       geolocalizacion().then(res => {
           setData(res)
-          console.log(res)
       })
     }, [])
 
